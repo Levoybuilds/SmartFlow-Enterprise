@@ -1,0 +1,41 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.pyinstaller/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Local datasets and generated reports
+data/
+output/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Excel workbooks and VBA exports
+SmartFlow.xlsm
+SmartFlow_Control_Center.xlsx
+SmartFlowControl.bas
+
+# Backup and patch notes
+SmartFlow_Launcher_backup.py
+scanner_backup.py
+SMARTFLOW_EXE_PATCH_README.txt
