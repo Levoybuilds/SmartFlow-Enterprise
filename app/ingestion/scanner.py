@@ -7,7 +7,12 @@ SUPPORTED_EXTENSIONS = {".xlsx", ".xls", ".csv"}
 
 
 def get_project_root() -> Path:
-    """Return the SmartFlow project root directory."""
+    """Return the configured SmartFlow project root directory."""
+    configured_root = os.environ.get("SMARTFLOW_PROJECT_ROOT", "").strip()
+
+    if configured_root:
+        return Path(configured_root).expanduser().resolve()
+
     return Path(__file__).resolve().parents[2]
 
 
