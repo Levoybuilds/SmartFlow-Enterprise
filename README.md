@@ -1,8 +1,26 @@
-﻿# SmartFlow Enterprise
+﻿
+# SmartFlow Enterprise
 
 **One-Click Business Analytics and Excel Automation**
 
 SmartFlow Enterprise is a Python-based data analytics application designed to automate data profiling, data quality validation, transformation, KPI calculations, and business report generation from structured business data.
+
+## Download the Windows Demo
+
+**[Download SmartFlow Enterprise v1.0.0](https://github.com/Levoybuilds/SmartFlow-Enterprise/releases/tag/v1.0.0)**
+
+Want to try SmartFlow without setting up Python?
+
+1. Open the [v1.0.0 Release](https://github.com/Levoybuilds/SmartFlow-Enterprise/releases/tag/v1.0.0).
+2. Download `SmartFlow.zip` from the **Assets** section.
+3. Extract the complete ZIP folder.
+4. Open the extracted folder and run `SmartFlow.exe`.
+5. Select a supported Excel or CSV file and click **Run Analysis**.
+
+**Important:** Keep the `_internal` folder alongside `SmartFlow.exe`. Do not move or distribute the EXE by itself.
+
+- [Browse the source code](https://github.com/Levoybuilds/SmartFlow-Enterprise)
+- [View release notes](https://github.com/Levoybuilds/SmartFlow-Enterprise/releases/tag/v1.0.0)
 
 ## Key Features
 
